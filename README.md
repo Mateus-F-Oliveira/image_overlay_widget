@@ -1,39 +1,13 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Image Overlay - Sobreposição de Imagem
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+Este projeto contém um package criado em Flutter, o qual tem implementado widgets de sobreposição de imagem utilizando o widget Stack como base.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+## Tecnologias e Versões
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- [Flutter 3.0.3](https://docs.flutter.dev/development/tools/sdk/releases)
+- [Dart 2.17.5](https://dart.dev/)
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+- *simpleImagesOverlay*: Widget de sobreposição de imagem simplificado onde ambas as imagens assumem as mesmas dimensões de largura e altura.
+- *dynamicImagesOverlay*: Widget de sobreposição de imagem dinâmico que permite configurar as dimensões de cada uma das imagens e definir o alinhamento delas.
